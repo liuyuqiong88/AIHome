@@ -6,6 +6,7 @@ import redis
 # from flask_wtf.csrf import CSRFProtect
 # from flask_session import Session
 
+
 class Config(object):
     """app 的实例化的配置参数类"""
     DEBUG = True
@@ -18,6 +19,8 @@ class Config(object):
     SESSION_USE_SIGNER = True
     SECRET_KEY = "qiong"
     PERMANENT_SESSION_LIFETIME = 3600 * 24
+
+
 
 
 class Develpment(Config):

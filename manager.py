@@ -24,16 +24,12 @@ manager.add_command('db',MigrateCommand)
 
 
 
-@app.route('/',methods=["POST","GET"])
-def index():
-
-    return 'index'
+# @app.route('/',methods=["POST","GET"])
+# def index():
+#
+#     return 'index'
 
 
 if __name__ == '__main__':
-    cof = app.config
-    for key,value in cof.items():
-        print key,"-----------------",value
-
-    print "haaahahahahaa"
+    print app.url_map
     manager.run()
