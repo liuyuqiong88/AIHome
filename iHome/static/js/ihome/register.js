@@ -20,12 +20,15 @@ var uuid = "";
 function generateImageCode() {
     // 1.获取uuid
     uuid = generateUUID();
+
     // 2.拼接带有uuid的请求地址
-    var url = '/api/1.0/image_code?uuid=' + uuid;
+    var img_url = "/api_1_0/image_code?uuid=" +uuid;
+
 
     // > 标签选择器，表示寻找父节点的子节点
     // '空格' ： 标签选择器，表示寻找父节点的子节点，如果一级找不见，自动寻找下一级，直到找到为止
-    $('.image-code>img').attr('src', url)
+
+    $('.image-code>img').attr('src',img_url);
 }
 
 function sendSMSCode() {
@@ -71,3 +74,4 @@ $(document).ready(function() {
 
     // TODO: 注册的提交(判断参数是否为空)
 });
+$()

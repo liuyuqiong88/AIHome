@@ -20,7 +20,7 @@ def get_static_file(filename):
     if filename != 'favicon.ico':
         filename = "html/%s" %filename
 
-    print filename
+
 
     # current_app 是上下文应用，返回的是当前的这个app，
     # send_static_file 是Ｆｌａｓｋ内置的静态文件处理函数

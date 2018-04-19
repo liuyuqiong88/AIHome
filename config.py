@@ -12,12 +12,14 @@ class Config(object):
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = "mysql://root:mysql@127.0.0.1:3306/iHome_01"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
     REDIS_HOST = '127.0.0.1'
     REDIS_PORT = 6379
     SESSION_TYPE = "redis"
     SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST,port=REDIS_PORT)
     SESSION_USE_SIGNER = True
-    SECRET_KEY = "qiong"
+    SECRET_KEY = "ksc89Qq0Z61VJjA2fXXW0QpJQQA9FLRycS2tyIkHEijFgM3aYbQ3Z+c3DXgx2B3c"
+
     PERMANENT_SESSION_LIFETIME = 3600 * 24
 
 

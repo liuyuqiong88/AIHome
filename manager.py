@@ -9,6 +9,7 @@ from flask_session import Session
 from flask_script import Manager
 from flask_migrate import Migrate,MigrateCommand
 from iHome import get_app,db
+# from iHome import models
 
 
 
@@ -33,3 +34,4 @@ manager.add_command('db',MigrateCommand)
 if __name__ == '__main__':
     print app.url_map
     manager.run()
+    from iHome.models import *
