@@ -15,7 +15,7 @@ def get_static_file(filename):
     """提供静态html文件"""
 
     if not filename:
-        filename = "html/index.html"
+        filename = "index.html"
 
     if filename != 'favicon.ico':
         filename = "html/%s" %filename

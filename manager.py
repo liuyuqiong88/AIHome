@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask
+from flask import current_app
 from flask_sqlalchemy import SQLAlchemy
 import redis
 from flask_wtf.csrf import CSRFProtect
@@ -33,5 +34,6 @@ manager.add_command('db',MigrateCommand)
 
 if __name__ == '__main__':
     print app.url_map
+
     manager.run()
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import logging
 import redis
 # from flask import Flask
 # from flask_sqlalchemy import SQLAlchemy
@@ -28,13 +29,13 @@ class Config(object):
 class Develpment(Config):
     """开发模式下的配置"""
 
-    pass
+    LOGGING_LEVEL = logging.DEBUG
 
 class Production(Config):
     """生产环境，线上，部署之后"""
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = "mysql://root:mysql@127.0.0.1:3306/iHome"
-
+    LOGGING_LEVEL = logging.WARN
 
 class UnitTest(Config):
     """测试环境"""
