@@ -60,11 +60,11 @@ function sendSMSCode() {
         url:"api_1_0/send_sms_code",　　
         type:'post',
         data:JSON.stringify(params),
-        
+        headers:{'X-CSRFToken':getCookie('csrf_token')},
         contentType:"application/json",
         
         success:function (response) {
-            alert(response.error_msg)
+
             if (response.error_no == '0'){
                                 // 发送成功后，进行倒计时
                 var num = 60;
@@ -101,6 +101,63 @@ function sendSMSCode() {
 
 
 }
+
+function checkMobile(){
+    //判定手机号码格式是否合法
+    var mobile = $("#mobile").val();
+
+    // var ret = /^1[2345678][0~9]{9}&/;
+
+    if (!mobile){
+        $("#mobile-err span").html("请填写正确手机号")
+        $("#mobile-err").show()
+    }
+}
+
+function checkpassword(){
+    //判定两次密码是否一致
+    var password = $("#password").val().trim(),password2 = $("#password2").val().trim();
+
+    if (password != password2){
+        $("#password2-err span").html("两次密码不一致")
+        $("#password2-err").show()
+    }
+}
+
+function registerPost(){
+
+    var password = $("#password").val(),password2 = $("#password2").val();
+    var mobile = $('#mobile').val(),smscode = $('#phonecode').val();
+
+    if (password != password2){
+        $("#password2-err span").html("两次密码不一致")
+        $("#password2-err").show()
+
+    }
+    params = {
+        "mobile":mobile,
+        "smscode":smscode,
+        "password":password,
+    }
+
+
+    var mobile = $('#mobile'),smscode = $('#phonecode'),password = $("#password");
+    $.ajax({
+        url : "api_1_0/users",
+        type : "post",
+        data: JSON.stringify(params),
+        contentType:"application/json",
+        headers: {"X-CSRFToken":getCookie("csrf_token")},
+        success:function (response) {
+            if (response.erroe_no == '0'){
+                location.href = "/"
+            }else {
+                alert(response.error_msg)
+            }
+        }
+    })
+}
+
 
 $(document).ready(function() {
     generateImageCode();  // 生成一个图片验证码的编号，并设置页面中图片验证码img标签的src属性

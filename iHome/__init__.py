@@ -53,7 +53,7 @@ def get_app(config_name):
     Session(app)
 
     # 设置app的csrf_token
-    # CSRFProtect(app)
+    CSRFProtect(app)
 
     # 注册自定义转换器RegenConverter到app的转换器converters中
     app.url_map.converters['re'] = RegenConverter

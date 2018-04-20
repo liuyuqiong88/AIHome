@@ -18,7 +18,7 @@
             <div class="form-group form-group-lg">
                 <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-mobile fa-2x fa-fw"></i></div>
-                    <input type="number" class="form-control" name="mobile" id="mobile" placeholder="手机号" required>
+                    <input type="number" class="form-control" name="mobile" id="mobile" placeholder="手机号" required onblur="checkMobile();">
                 </div>
             </div>
             <div class="error-msg" id="mobile-err"><i class="fa fa-exclamation-circle"></i><span></span></div>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="error-msg" id="password2-err"><i class="fa fa-exclamation-circle"></i><span></span></div>
-            <button type="submit" class="btn btn-lg btn-theme btn-block">立即注册</button>
+            <button type="submit" class="btn btn-lg btn-theme btn-block" onclick="registerPost();">立即注册</button>
             <p class="login-a">已有账号，<a href="/login.html">立即登陆</a></p>
         </form>
     </div>

@@ -2,6 +2,11 @@
 
 
 from flask import Blueprint,current_app
+from flask import make_response
+from flask import request
+from flask_wtf.csrf import generate_csrf
+
+
 from utils.common import RegenConverter
 
 
@@ -21,7 +26,12 @@ def get_static_file(filename):
         filename = "html/%s" %filename
 
 
-
     # current_app 是上下文应用，返回的是当前的这个app，
     # send_static_file 是Ｆｌａｓｋ内置的静态文件处理函数
-    return  current_app.send_static_file(filename)
+
+    response = make_response(current_app.send_static_file(filename))
+    csrf_token = generate_csrf()
+    response.set_cookie('csrf_token',csrf_token)
+
+
+    return response

@@ -80,6 +80,7 @@ def send_sms_code():
     #２. 手机格式是否正确
     if not re.match(r'1[2345678][\d]{9}',mobile):
         return jsonify(error_no=RET.PARAMERR,error_msg=u'手机格式有误')
+
     # 3.获取服务器存储的验证码
     try:
         image_code_server = redis_store.get('ImageCode:' + uuid)
@@ -87,20 +88,26 @@ def send_sms_code():
         current_app.logger.errer(e)
         return jsonify(error_no=RET.DBERR,error_msg=u'获取服务器图片验证码失败')
     # 4.跟客户端传入的验证码进行对比
-    if image_code_server != imagecode :
+    if image_code_server.lower() != imagecode.lower() :
         return jsonify(error_no=RET.DATAERR,error_msg=u'图片验证码错误')
     # 5.如果对比成功就生成短信验证码
     sms_code = "06%d" %random.randint(0,9999)
     # 6.调用单例类发送短信
 
     ccp = CCP()
-    statusCode = ccp.send_sms_code(mobile,[sms_code,'5'],'1')
+    statusCode = ccp.send_sms_code(mobile,[sms_code,constants.SMS_CODE_REDIS_EXPIRES/60],'1')
+
     if statusCode != 0:
         return jsonify(error_no=RET.THIRDERR,error_msg=u'发送短信验证码失败')
     # 7.如果发送短信成功，就保存短信验证码到redis数据库
 
     try:
-        redis_store.set('Mobile:' + mobile,sms_code, constants.SMS_CODE_REDIS_EXPIRES/60 )
+        result = redis_store.set('Mobile:' + mobile,sms_code, constants.SMS_CODE_REDIS_EXPIRES )
+
+        test = redis_store.get('Mobile:' + mobile)
+
+        print "111111111111111111111111111111",test,result
+
     except Exception as e:
         current_app.logger.errer(e)
         return jsonify(error_no=RET.DATAERR,error_msg=u'短信验证码存储失败！')
