@@ -125,5 +125,66 @@ def get_user_info():
 
 # 修改身份证视图
 @api.route('/users/auth',methods=["POST"])
+@login_requeired
 def set_auth():
-    pass
+    """实名认证
+    0.判断用户是否登录
+    1.获取实名认证参数：real_name,id_card,并判断是否为空
+    2.查询当前的登录用户user模型
+    3.将real_name,id_card赋值给user模型
+    4.保存到数据库
+    5.响应实名认证结果
+    """
+    # 1.获取实名认证参数：real_name,id_card,并判断是否为空
+    json_dict = request.json
+    user_id = g.user_id
+    real_name = json_dict.get('real_name')
+    id_card = json_dict.get('id_card')
+    if not all([real_name,id_card]):
+        return jsonify(error_no=RET.PARAMERR,error_msg=u'缺少参数')
+    # 2.查询当前的登录用户user模型
+    try:
+        user = User.query.filter(User.id==user_id).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error_no=RET.DBERR,error_msg=u'数据库错误')
+
+    if not user:
+        return jsonify(error_no=RET.DATAERR, error_msg=u'用户名不存在')
+
+    # 3.将real_name,id_card赋值给user模型
+    user.real_name = real_name
+    user.id_card = id_card
+    # 4.保存到数据库
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error_no=RET.DBERR,error_msg=u'保存数据库失败！')
+    # 5.响应实名认证结果
+
+    print user.real_name, user.id_card,user.id
+
+    return jsonify(error_no=RET.OK,error_msg=u'保存成功')
+
+# 查询身份证信息
+@api.route('/users/auth',methods=["GET"])
+@login_requeired
+def get_auth():
+    """查询个人信息视图
+    """
+    # 1.获取登录用用户信息
+    user_id = g.user_id
+
+    try:
+        user = User.query.filter(User.id == user_id).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error_no=RET.DBERR,error_msg=u'查询用户数据失败')
+    # 　２．如果用用户不不存在
+
+    if not user:
+        return jsonify(error_no=RET.NODATA,error_msg=u'用户不存在！')
+
+    # 2.响应结果
+    return jsonify(error_no=RET.OK,error_msg=u'成功',data = user.to_real_name_dict())

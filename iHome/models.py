@@ -40,12 +40,25 @@ class User(BaseModel, db.Model):
 
         return check_password_hash(self.password_hash,password)
 
+
     def to_dict(self):
+        """查询名字图片和手机"""
+
         response_data = {
             "user_id":self.id,
             "name":self.name,
             "mobile":self.mobile,
             "avatar_url":constants.QINIU_DOMIN_PREFIX+(self.avatar_url if self.avatar_url else ""),
+        }
+        return response_data
+
+    def to_real_name_dict(self):
+        """查询身份证信息"""
+
+        response_data = {
+            "user_id": self.id,
+            "real_name":self.real_name,
+            "id_card":self.id_card,
         }
         return response_data
 class Area(BaseModel, db.Model):
