@@ -35,6 +35,19 @@ class User(BaseModel, db.Model):
     @password.setter
     def password(self,value):
         self.password_hash = generate_password_hash(value)
+
+    def checkpassword(self,password):
+
+        return check_password_hash(self.password_hash,password)
+
+    def to_dict(self):
+        response_data = {
+            "user_id":self.id,
+            "name":self.name,
+            "mobile":self.mobile,
+            "avatar_url":constants.QINIU_DOMIN_PREFIX+(self.avatar_url if self.avatar_url else ""),
+        }
+        return response_data
 class Area(BaseModel, db.Model):
     """城区"""
 

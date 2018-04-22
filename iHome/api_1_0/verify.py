@@ -18,6 +18,8 @@ from iHome.utils.response_code import *
 import random
 
 
+# 验证码视图(图片和短信验证)
+
 last_uuid = ""
 
 
@@ -94,19 +96,19 @@ def send_sms_code():
     sms_code = "06%d" %random.randint(0,9999)
     # 6.调用单例类发送短信
 
-    ccp = CCP()
-    statusCode = ccp.send_sms_code(mobile,[sms_code,constants.SMS_CODE_REDIS_EXPIRES/60],'1')
-
-    if statusCode != 0:
-        return jsonify(error_no=RET.THIRDERR,error_msg=u'发送短信验证码失败')
-    # 7.如果发送短信成功，就保存短信验证码到redis数据库
+    # ccp = CCP()
+    # statusCode = ccp.send_sms_code(mobile,[sms_code,constants.SMS_CODE_REDIS_EXPIRES/60],'1')
+    #
+    # if statusCode != 0:
+    #     return jsonify(error_no=RET.THIRDERR,error_msg=u'发送短信验证码失败')
+    # # 7.如果发送短信成功，就保存短信验证码到redis数据库
 
     try:
         result = redis_store.set('Mobile:' + mobile,sms_code, constants.SMS_CODE_REDIS_EXPIRES )
 
         test = redis_store.get('Mobile:' + mobile)
 
-        print "111111111111111111111111111111",test,result
+        print test,result
 
     except Exception as e:
         current_app.logger.errer(e)

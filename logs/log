@@ -1259,3 +1259,1096 @@ INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET / HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 09:24:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:24:45] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:24:45] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:24:45] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:19] "POST /api_1_0/sessions HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 14:32:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO csrf.py:251 The CSRF token has expired.
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:32:59] "POST /api_1_0/sessions HTTP/1.1" 400 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:02] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:33:13] "POST /api_1_0/sessions HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:49] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:34:59] "POST /api_1_0/sessions HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:35:00] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:17] "POST /api_1_0/sessions HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:23] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:29] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:54:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET / HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:23] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:32] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 16:59:33] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:08:48] "GET /profile HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:08:57] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:08:57] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:08:57] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:08:57] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:04] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:09:07] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 304 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:27] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:32] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:32] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:32] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+DEBUG verify.py:48 PR8Z
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:33] "GET /api_1_0/image_code?uuid=21826ed9-f00c-4a23-be23-7b3eadd64495 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:19:55] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:20:11] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:20:11] "GET /register.html?mobile=13798076559&imagecode=PR8Z&phonecode=064788&password=123&password2=123 HTTP/1.1" 200 -
+DEBUG verify.py:48 UQAW
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 17:20:13] "GET /api_1_0/image_code?uuid=252dc1a9-3007-4d70-ad6b-4ca805a9de59 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:00] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:29:09] "POST /api_1_0/users/avatar HTTP/1.1" 405 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:35:59] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:36:08] "POST /api_1_0/users/avatar HTTP/1.1" 400 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:08] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:37:14] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:50] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:38:55] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:39:26] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:58] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:58] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:58] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:44:59] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:05] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:44] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:45:51] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:23] "POST /api_1_0/users/avata HTTP/1.1" 405 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:47:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+ERROR profile.py:30 upload_avatar() takes no arguments (1 given)
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:48:00] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:56] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:49:57] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:03] "POST /api_1_0/users/avatar HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:48] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 19:50:55] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:12] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:09:41] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/models.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:15:41] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:08] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:17:18] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:15] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:41] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:41] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:18:41] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/profile.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:38:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:26] "PUT /api_1_0/users/avatar HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:39:47] "PUT /api_1_0/users/name HTTP/1.1" 400 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+ERROR profile.py:87 (_mysql_exceptions.OperationalError) (1366, "Incorrect string value: '\\xE5\\x93\\x88\\xE5\\x93\\x88' for column 'name' at row 1") [SQL: u'UPDATE ih_user_profile SET update_time=%s, name=%s WHERE ih_user_profile.id = %s'] [parameters: (datetime.datetime(2018, 4, 21, 20, 40, 28, 159248), '\xe5\x93\x88\xe5\x93\x88', 1L)]
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:40:28] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:17] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+ERROR profile.py:88 (_mysql_exceptions.OperationalError) (1366, "Incorrect string value: '\\xE5\\x93\\x88\\xE5\\x93\\x88' for column 'name' at row 1") [SQL: u'UPDATE ih_user_profile SET update_time=%s, name=%s WHERE ih_user_profile.id = %s'] [parameters: (datetime.datetime(2018, 4, 21, 20, 44, 20, 984901), '\xe5\x93\x88\xe5\x93\x88', 1L)]
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:20] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:44:48] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:45:15] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:06] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:09] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:09] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:09] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+DEBUG verify.py:48 V3KZ
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:10] "GET /api_1_0/image_code?uuid=0e9771ea-1b2d-4f8c-945d-6b747cb7a734 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:29] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:42] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:42] "GET /register.html?mobile=13798076559&imagecode=V3KZ&phonecode=065295&password=123&password2=123 HTTP/1.1" 200 -
+DEBUG verify.py:48 MBQT
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:50:44] "GET /api_1_0/image_code?uuid=b33fc29c-b64e-4134-a8f1-ebd8ec0c1595 HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:10] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:10] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:10] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+DEBUG verify.py:48 Y38Z
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:10] "GET /api_1_0/image_code?uuid=940ce3f1-2ecd-43c2-9ea8-a0b106dae389 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:23] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:34] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:34] "GET /register.html?mobile=13798076559&imagecode=Y38Z&phonecode=063464&password=123&password2=123 HTTP/1.1" 200 -
+DEBUG verify.py:48 ZASQ
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:54:36] "GET /api_1_0/image_code?uuid=98726808-4577-49f6-a88c-94014d5e9830 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:55:42] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:55:52] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:55:52] "GET /register.html?mobile=13798076558&imagecode=ZASQ&phonecode=061326&password=123&password2=123 HTTP/1.1" 200 -
+DEBUG verify.py:48 M94O
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:55:57] "GET /api_1_0/image_code?uuid=0dc36aed-879d-499c-9ff7-3b1acb862682 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:56:21] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:56:33] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:56:33] "GET /register.html?mobile=13100000000&imagecode=M94O&phonecode=067789&password=1&password2=1 HTTP/1.1" 200 -
+DEBUG verify.py:48 RJ8H
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 20:56:37] "GET /api_1_0/image_code?uuid=ba3acddc-482f-4bfd-a554-e2f3c848892d HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /register.html?mobile=13100000000&imagecode=M94O&phonecode=067789&password=1&password2=1 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+DEBUG verify.py:48 MARS
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /api_1_0/image_code?uuid=de31d297-5b03-4680-a31e-ac6ee608a241 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:01] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:25] "POST /api_1_0/send_sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:37] "POST /api_1_0/users HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:37] "GET /register.html?mobile=13200000000&imagecode=MARS&phonecode=064480&password=1&password2=1 HTTP/1.1" 200 -
+DEBUG verify.py:48 BXJJ
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:00:39] "GET /api_1_0/image_code?uuid=57f797ff-4b2c-4cd6-a9e3-580595de8ed1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:09] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:09] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:09] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:23] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:35] "GET /users HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:02:39] "GET /user HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:16] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:16] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:16] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:16] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:03:32] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/utils/common.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/utils/common.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:16:07] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:16:56] "POST /api_1_0/users/avatar HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:17:28] "POST /api_1_0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:18:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:20:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 21:21:14] "PUT /api_1_0/users/name HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/utils/common.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/constants.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/profile.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/profile.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:29] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:18:30] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:52] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:19:53] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /profile.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:20:50] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:22:05] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:22:05] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:22:05] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:22:10] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:19] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:20] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:20] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:49] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:24:51] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:31:30] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:17] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:19] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:19] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:19] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:19] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:24] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:32] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:41] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:32:41] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:06] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:18] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:18] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:26] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:44] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:44] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:44] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:44] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:48] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [21/Apr/2018 22:34:51] "DELETE /api_1_0/session HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /static/js/ihome/my.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:30] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:40] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:40] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:51] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:19:52] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:06] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:07] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:17] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:23] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:34] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:34] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:42] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:22:45] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:23] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:33] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:33] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:37] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:39] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:23:43] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:35] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:43] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:44] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:47] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:49] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:53] "DELETE /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:25:55] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:26:03] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 08:26:05] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:09:58] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:02] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:10] "POST /api_1_0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:11] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:15] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:16] "GET /api_1_0/userinfo HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:18] "GET /auth.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:18] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:18] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Apr/2018 09:10:18] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 269-327-297
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/flask_project/aijia/iHome/api_1_0/profile.py', reloading
+INFO _internal.py:87  * Restarting with stat
