@@ -194,6 +194,8 @@ class HouseImage(BaseModel, db.Model):
     url = db.Column(db.String(256), nullable=False)  # 图片的路径
 
 
+
+
 class Order(BaseModel, db.Model):
     """订单"""
 
