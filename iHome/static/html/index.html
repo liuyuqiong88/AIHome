@@ -37,7 +37,7 @@
             <div class="swiper-pagination"></div>
         </div>
         <div class="search-bar">
-            <button class="filter-btn" type="button" data-toggle="modal" data-target="#area-modal"><span class="fl" id="area-btn">选择城区</span><span class="fr"><i class="fa fa-map-marker fa-lg fa-fw"></i></span></button>
+            <button class="filter-btn" type="button" data-toggle="modal" data-target="#area-modal" onclick="getArea()"><span class="fl" id="area-btn"  >选择城区</span><span class="fr"><i class="fa fa-map-marker fa-lg fa-fw"></i></span></button>
             <button class="filter-btn" type="button" data-toggle="modal" data-target="#start-date-modal"><span class="fl" id="start-date-btn">入住日期</span><span class="fr"><i class="fa fa-calendar fa-lg fa-fw"></i></span></button>
             <button class="filter-btn end-date" type="button" data-toggle="modal" data-target="#end-date-modal"><span class="fl" id="end-date-btn">离开日期</span><span class="fr"><i class="fa fa-calendar fa-lg fa-fw"></i></span></button>
             <a class="btn search-btn btn-theme" href="#" onclick="goToSearchPage(this);" area-id="" start-date="" end-date="">搜索</a>
@@ -45,7 +45,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"  onclick="getArea()"><span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title" id="area-label">选择城区</h4>
                         </div>
                         <div class="modal-body">

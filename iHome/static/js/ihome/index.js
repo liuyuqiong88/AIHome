@@ -57,6 +57,27 @@ function goToSearchPage(th) {
     location.href = url;
 }
 
+function getArea() {
+    $.get('api_1_0/areas',function (response) {
+        if (response.error_no == "0"){
+            //
+            // $.each(response.data, function (i,area) {
+            //     $(".area-list").append('<option value="'+area.aid+'">'+area.aname+'</option>')
+            //     alert('12')
+            // })
+            alert('ok')
+            var html = template("area-list-tmpl",{"areas":response.data})
+            $(".area-list").html(html)
+
+        }else if(response.error_no == '4101'){
+            location.href = 'login.html'
+        }
+        else {
+            alert(response.error_msg)
+        }
+    })
+}
+
 $(document).ready(function(){
     // TODO: 检查用户的登录状态
     $(".top-bar>.register-login").show();
@@ -72,7 +93,20 @@ $(document).ready(function(){
     });
 
     // TODO: 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
+    $.get('api_1_0/areas',function (response) {
+        if (response.error_no == "0"){
 
+            $.each(response.data, function (i,area) {
+                $("#area-id").append('<option value="'+area.aid+'">'+area.aname+'</option>')
+            })
+
+        }else if(response.error_no == '4101'){
+            location.href = 'login.html'
+        }
+        else {
+            alert(response.error_msg)
+        }
+    })
     // TODO: 城区按钮点击之后相关操作
     $(".area-list a").click(function(e){
         $("#area-btn").html($(this).html());

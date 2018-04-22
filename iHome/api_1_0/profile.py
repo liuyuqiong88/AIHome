@@ -9,7 +9,9 @@ from flask import session
 from iHome import db
 from iHome.models import User
 from iHome.utils.common import login_requeired
-from . import api, RET, redis_store
+from . import api
+from iHome.utils.response_code import RET
+from iHome import redis_store
 from iHome.utils.image_storage import upload_image
 
 # 上传图片视图

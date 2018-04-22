@@ -4,7 +4,9 @@ from flask import current_app,request,make_response,json,jsonify
 from flask import session
 from iHome import db
 from iHome.models import User
-from . import api, RET, redis_store
+from . import api
+from iHome.utils.response_code import RET
+from iHome import redis_store
 
 # 注册和登陆视图
 
