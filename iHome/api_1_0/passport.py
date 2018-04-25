@@ -11,7 +11,7 @@ from iHome import redis_store
 # 注册和登陆视图
 
 # 注册
-@api.route('/users',methods=["POST","GET"])
+@api.route('/users',methods=["POST"])
 def register_new_user():
     """处理注册逻辑的视图"""
 

@@ -54,4 +54,39 @@ $(document).ready(function(){
     // TODO: 获取房屋的基本信息
 
     // TODO: 订单提交
+    $(".submit-btn").on("click" , function () {
+        var st = $("#start-date").val(),et = $("#end-date").val();
+        if (!st){
+            alert("请输入入住时间")
+            return
+        }
+        if (!et){
+        alert("请输入离开时间")
+            return
+        }
+
+        params = {
+            "house_id":houseId,
+            "start_time" : st,
+            "end_time" : et,
+        }
+        $.ajax({
+            url: '/api_1_0/orders',
+            type: 'post',
+            data: JSON.stringify(params),
+            contentType: 'application/json',
+            headers: {'X-CSRFToken':getCookie('csrf_token')},
+            success:function (response) {
+            if (response.error_no == '0') {
+                alert(response.error_msg)
+                location.href = 'orders.html';
+            } else if (response.error_no == '4101') {
+                location.href = 'login.html';
+            } else {
+            alert(response.error_msg);
+            }
+            }
+        });
+
+    })
 })

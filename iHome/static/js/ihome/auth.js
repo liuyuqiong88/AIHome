@@ -15,12 +15,13 @@ function getCookie(name) {
 function getAuth() {
     $.get("/api_1_0/users/auth",function (response) {
                 if (response.error_no == "0"){
-
-                    $("#real-name").val(response.data.real_name);
-                    $("#id-card").val(response.data.id_card);
-                    $("#real-name").attr('disabled',true);
-                    $("#id-card").attr('disabled',true);
-                    $(":submit").hide();
+                    alert(response.data.real_name)
+                    if(response.data.real_name && response.data.id_card){
+                        $("#real-name").val(response.data.real_name);
+                        $("#id-card").val(response.data.id_card);
+                        $("#real-name").attr('disabled',true);
+                        $("#id-card").attr('disabled',true);
+                        $(":submit").hide();}
 
                 }else if(response.error_no == '4101'){
                     location.href = 'login.html'
@@ -71,7 +72,7 @@ $(document).ready(function(){
                     alert(response.error_msg)
                     showSuccessMsg()
                     $("#real-name").attr('disabled',true);
-                    $("#id-card").attr('disabled',true)
+                    $("#id-card").attr('disabled',true);
                     $(":submit").hide()
                 }else if(response.error_no == '4101'){
                     location.href = 'login.html'

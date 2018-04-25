@@ -22,7 +22,7 @@ function setStartDate() {
             language: "zh-CN",
             keyboardNavigation: false,
             startDate: startDate,
-            format: "yyyy-mm-dd"
+            format: "yyyy-mm-dd" //2018-04-24
         });
         $("#end-date").on("changeDate", function() {
             $("#end-date-input").val(
@@ -57,32 +57,7 @@ function goToSearchPage(th) {
     location.href = url;
 }
 
-function getArea() {
-    $.get('api_1_0/areas',function (response) {
-        if (response.error_no == "0"){
-            //
-            // $.each(response.data, function (i,area) {
-            //     $(".area-list").append('<option value="'+area.aid+'">'+area.aname+'</option>')
-            //     alert('12')
-            // })
-            alert('ok')
-            var html = template("area-list-tmpl",{"areas":response.data})
-            $(".area-list").html(html)
-
-        }else if(response.error_no == '4101'){
-            location.href = 'login.html'
-        }
-        else {
-            alert(response.error_msg)
-        }
-    })
-}
-
-$(document).ready(function(){
-    // TODO: 检查用户的登录状态
-    $(".top-bar>.register-login").show();
-    // TODO: 获取幻灯片要展示的房屋基本信息
-
+function swiper() {
     // TODO: 数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
     var mySwiper = new Swiper ('.swiper-container', {
         loop: true,
@@ -91,29 +66,59 @@ $(document).ready(function(){
         pagination: '.swiper-pagination',
         paginationClickable: true
     });
+}
+
+
+$(document).ready(function(){
+    // TODO: 检查用户的登录状态
+    $.get('/api_1_0/sessions', function (response) {
+        if (response.error_no == '0') {
+            if (response.data.user_id && response.data.name) {
+                // 表示用户登录，影藏注册和登录按钮，显示用户名标签
+                $(".top-bar>.register-login").hide();
+                $('.top-bar>.user-info').show();
+                $('.top-bar>.user-info>a').html(response.data.name);
+            } else {
+                // 表示未登录，展示注册和登录按钮
+                $(".top-bar>.register-login").show();
+            }
+        } else {
+            alert(response.error_msg);
+        }
+    });
+
+    // TODO: 获取幻灯片要展示的房屋基本信息:房屋推荐
+    $.get('/api_1_0/houses/index', function (response) {
+        if (response.error_no == '0') {
+            var html = template('swiper-houses-tmpl', {'houses':response.data});
+            $('.swiper-wrapper').html(html);
+            swiper();
+        } else {
+            alert(response.error_msg);
+        }
+    });
+
 
     // TODO: 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
-    $.get('api_1_0/areas',function (response) {
-        if (response.error_no == "0"){
+    $.get('/api_1_0/areas', function (response) {
+        if (response.error_no == '0') {
+            // 渲染城区信息
+            var html = template('area-list-tmpl',{'areas':response.data});
+            $('.area-list').html(html);
 
-            $.each(response.data, function (i,area) {
-                $("#area-id").append('<option value="'+area.aid+'">'+area.aname+'</option>')
-            })
+            // TODO: 城区按钮点击之后相关操作
+            $(".area-list a").click(function(e){
+                $("#area-btn").html($(this).html());
+                $(".search-btn").attr("area-id", $(this).attr("area-id"));
+                $(".search-btn").attr("area-name", $(this).html());
+                $("#area-modal").modal("hide");
+            });
 
-        }else if(response.error_no == '4101'){
-            location.href = 'login.html'
+        } else {
+            alert(error_msg);
         }
-        else {
-            alert(response.error_msg)
-        }
-    })
-    // TODO: 城区按钮点击之后相关操作
-    $(".area-list a").click(function(e){
-        $("#area-btn").html($(this).html());
-        $(".search-btn").attr("area-id", $(this).attr("area-id"));
-        $(".search-btn").attr("area-name", $(this).html());
-        $("#area-modal").modal("hide");
     });
+
 
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);               //当窗口大小变化的时候

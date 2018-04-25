@@ -21,6 +21,14 @@ def get_areas():
     3.响应城区信息
     """
     # 1.直接查询所有城区信息
+
+    try:
+        area_dict_list = redis_store.get('Areas')
+        if area_dict_list:
+            return jsonify(error_no=RET.OK, error_msg=u'成功', data=eval(area_dict_list))
+    except Exception as e:
+        current_app.logger.error(e)
+
     try:
         areas = Area.query.all()
     except Exception as e:
@@ -33,6 +41,12 @@ def get_areas():
     for area in areas:
         area_dict_list.append(area.to_dict())
     # 3.响应城区信息
+
+    try:
+        redis_store.set('Areas', area_dict_list, constants.AREA_INFO_REDIS_EXPIRES)
+    except Exception as e:
+        current_app.logger.error(e)
+
 
     return jsonify(error_no=RET.OK,error_msg=u'成功',data = area_dict_list)
 
@@ -164,10 +178,9 @@ def set_house_image():
 
 # 房屋详情视图
 @api.route('/houses/<int:house_id>')
-@login_requeired
 def house_detail(house_id):
     """房屋详情视图
-    0.检查是否登陆
+
     1.接受house_id参数，
     ２．查询房屋模型数据
     ３．构建返回数据
@@ -179,16 +192,19 @@ def house_detail(house_id):
     # ２．查询房屋模型数据
 
     try:
+        print house_id
         house = House.query.filter(House.id == house_id).first()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(error_no=RET.DBERR,error_msg=u'查询数据失败')
 
     if not house:
-            return jsonify(error_no=RET.NODATA,error_msg=u'房屋不存在！')
+            return jsonify(error_no=RET.NODATA,error_msg=u'000房屋不存在！')
 
     # ３．构建返回数据
     house_dict = house.to_full_dict()
 
+    login_user_id = session.get("user_id",-1)
+
     # ４．返回结果
-    return jsonify(error_no=RET.OK,error_msg=u'查询房屋成功',data=house_dict)
+    return jsonify(error_no=RET.OK,error_msg=u'查询房屋成功',data=house_dict,login_user_id=login_user_id)

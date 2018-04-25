@@ -116,3 +116,4 @@ def send_sms_code():
     # 8.响应发送短信的结果
 
     return jsonify(error_no=RET.OK,error_msg=u'短信验证码发送成功')
+

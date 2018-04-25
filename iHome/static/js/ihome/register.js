@@ -124,39 +124,7 @@ function checkpassword(){
     }
 }
 
-function registerPost(){
 
-    var password = $("#password").val(),password2 = $("#password2").val();
-    var mobile = $('#mobile').val(),smscode = $('#phonecode').val();
-
-    if (password != password2){
-        $("#password2-err span").html("两次密码不一致")
-        $("#password2-err").show()
-
-    }
-    params = {
-        "mobile":mobile,
-        "smscode":smscode,
-        "password":password,
-    }
-
-
-    var mobile = $('#mobile'),smscode = $('#phonecode'),password = $("#password");
-    $.ajax({
-        url : "api_1_0/users",
-        type : "post",
-        data: JSON.stringify(params),
-        contentType:"application/json",
-        headers: {"X-CSRFToken":getCookie("csrf_token")},
-        success:function (response) {
-            if (response.erroe_no == '0'){
-                location.href = "/"
-            }else {
-                alert(response.error_msg)
-            }
-        }
-    })
-}
 
 
 $(document).ready(function() {
@@ -180,5 +148,38 @@ $(document).ready(function() {
     });
 
     // TODO: 注册的提交(判断参数是否为空)
+    $(".form-register").submit(function (event) {
+        event.preventDefault()
+        var password = $("#password").val(),password2 = $("#password2").val();
+        var mobile = $('#mobile').val(),smscode = $('#phonecode').val();
+
+        if (password != password2){
+            $("#password2-err span").html("两次密码不一致")
+            $("#password2-err").show()
+
+        }
+        params = {
+            "mobile":mobile,
+            "smscode":smscode,
+            "password":password,
+        }
+
+
+        var mobile = $('#mobile'),smscode = $('#phonecode'),password = $("#password");
+        $.ajax({
+            url : "api_1_0/users",
+            type : "post",
+            data: JSON.stringify(params),
+            contentType:"application/json",
+            headers: {"X-CSRFToken":getCookie("csrf_token")},
+            success:function (response) {
+                if (response.error_no == '0'){
+                    location.href = "/"
+                }else {
+                    alert(response.error_msg)
+                }
+            }
+        })
+        })
 });
 $()

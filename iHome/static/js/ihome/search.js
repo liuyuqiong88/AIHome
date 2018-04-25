@@ -44,24 +44,59 @@ function updateHouseData(action) {
         sk:sortKey,
         p:next_page
     };
+
     // TODO: 获取房屋列表信息
+    $.get('/api_1_0/houses/search', params, function (response) {
+
+        // TODO 1. 当得到响应后，需要取消正在加载数据的标记 house_data_querying = false
+        house_data_querying = false;
+
+        if (response.error_no == '0') {
+            // TODO 2. 当后端分页成功后，需要将总页数传给前端 total_page
+
+            total_page = response.data.total_page;
+
+            // 渲染搜索页面
+            var html = template('house-list-tmpl',{'houses':response.data.house});
+
+            if (action == 'renew') {
+                // 重新刷新一页数据
+                $('.house-list').html(html);
+            } else {
+                // TODO 3. 每次上拉刷新下一页成功后，需要给cur_page赋新值
+                cur_page = next_page;
+
+                // 分页后的下一页拼接到上一页的后面
+                $('.house-list').append(html);
+            }
+
+        } else {
+            alert(response.error_msg);
+        }
+    });
 }
 
 $(document).ready(function(){
+
+    // 解析url中的查询字符串，为了获取查询的条件
     var queryData = decodeQuery();
+
+    // 给房屋搜索页面的时间赋值
     var startDate = queryData["sd"];
     var endDate = queryData["ed"];
     $("#start-date").val(startDate); 
     $("#end-date").val(endDate); 
     updateFilterDateDisplay();
+
+    // 给房屋搜索页面的城区进行赋值
     var areaName = queryData["aname"];
     if (!areaName) areaName = "位置区域";
     $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html(areaName);
 
 
     // 获取筛选条件中的城市区域信息
-    $.get("/api/v1.0/areas", function(data){
-        if ("0" == data.errno) {
+    $.get("/api_1_0/areas", function(data){
+        if ("0" == data.error_no) {
             var areaId = queryData["aid"];
             if (areaId) {
                 for (var i=0; i<data.data.length; i++) {
@@ -77,9 +112,14 @@ $(document).ready(function(){
                     $(".filter-area").append('<li area-id="'+ data.data[i].aid+'">'+ data.data[i].aname+'</li>');
                 }
             }
+
+
             // 在页面添加好城区选项信息后，更新展示房屋列表信息
+            // 搜索房屋数据是回调的方法
             updateHouseData("renew");
-            var windowHeight = $(window).height()
+
+
+            var windowHeight = $(window).height();
             // 为窗口的滚动添加事件函数
             window.onscroll=function(){
                 // var a = document.documentElement.scrollTop==0? document.body.clientHeight : document.documentElement.clientHeight;

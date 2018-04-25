@@ -18,6 +18,19 @@ $(document).ready(function(){
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);
     // TODO: 查询房东的订单
+        $.get("/api_1_0/orders?role=landlord",function (response) {
+        if (response.error_no == '0'){
+            html = template("orders-list-tmpl",{"orders":response.data})
+
+           $('.orders-list').html(html)
+        }else if(response.error_no == '4101'){
+            location.href = 'login.html'
+        }else {
+            alert(response.error_msg)
+        }
+    });
+
+
     // TODO: 查询成功之后需要设置接单和拒单的处理
     $(".order-accept").on("click", function(){
         var orderId = $(this).parents("li").attr("order-id");
