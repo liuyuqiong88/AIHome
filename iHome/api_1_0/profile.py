@@ -7,7 +7,7 @@ from flask import current_app,request,make_response,json,jsonify
 from flask import g
 from flask import session
 from iHome import db
-from iHome.models import User
+from iHome.models import User, House
 from iHome.utils.common import login_requeired
 from . import api
 from iHome.utils.response_code import RET
@@ -190,3 +190,25 @@ def get_auth():
 
     # 2.响应结果
     return jsonify(error_no=RET.OK,error_msg=u'成功',data = user.to_real_name_dict())
+
+# 显示我的房源
+@api.route('/users/houses')
+@login_requeired
+def get_my_houses():
+#     1.查询该登录用用户发布的所有房屋
+
+    try:
+        houses = House.query.filter(House.user_id==g.user_id).all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error_no=RET.DBERR,error_msg=u'查询房屋数据失败')
+
+    if not houses:
+        return jsonify(error_no=RET.NODATA,error_msg=u'房屋不存在！')
+
+    house_list = []
+
+    for house in houses:
+        house_list.append(house.to_basic_dict())
+
+    return jsonify(error_no=RET.OK,error_msg=u'OK',data = house_list)

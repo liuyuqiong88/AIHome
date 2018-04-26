@@ -23,7 +23,44 @@ $(document).ready(function(){
         if (response.error_no == '0'){
             html = template("orders-list-tmpl",{"orders":response.data})
 
-           $('.orders-list').html(html)
+            $('.orders-list').html(html)
+
+            // $(".order-comment").show()
+
+
+            // TODO: 查询成功之后需要设置评论的相关处理
+            $(".order-comment").on("click", function(){
+                var orderId = $(this).parents("li").attr("order-id");
+                $(".modal-comment").attr("order-id", orderId);
+            });
+
+            $(".modal-comment").on('click', function () {
+                var orderId = $(".modal-comment").attr("order-id");
+                var comment = $('#comment').val();
+                if (!comment) {
+                    alert('请输入评论信息');
+                    return;
+                }
+                $.ajax({
+                    url: '/api_1_0/orders/comment/'+ orderId,
+                    type: 'post',
+                    data: JSON.stringify({'comment':comment}),
+                    contentType: 'application/json',
+                    headers: {'X-CSRFToken':getCookie('csrf_token')},
+                    success:function (response) {
+                        if (response.error_no == '0') {
+                            $(".orders-list>li[order-id="+ orderId +"]>div.order-content>div.order-text>ul li:eq(4)>span").html("已完成");
+                            $("ul.orders-list>li[order-id="+ orderId +"]>div.order-title>div.order-operate").hide();
+                            $("#comment-modal").modal("hide");
+                        } else if (response.error_no == '4101') {
+                            location.href = 'login.html';
+                        } else {
+                            alert(response.error_msg);
+                        }
+                    }
+                });
+            });
+
         }else if(response.error_no == '4101'){
             location.href = 'login.html'
         }else {
